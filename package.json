@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "postcss styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erenyagami99/tailwind-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erenyagami99/tailwind-ui/issues"
+  },
+  "homepage": "https://github.com/erenyagami99/tailwind-ui#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.5",
+    "tailwindcss-gradients": "^3.0.0"
+  }
+}
